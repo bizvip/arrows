@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
+class ComposerStaticInit42b5cf9db911543556a2e0547f6aa8bb
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -38,6 +38,11 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
         array (
             'Longman\\TelegramBot\\' => 20,
         ),
+        'H' => 
+        array (
+            'Hyperf\\Snowflake\\' => 17,
+            'Hyperf\\Contract\\' => 16,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -48,6 +53,10 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
         array (
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'Arrows\\' => 7,
         ),
     );
 
@@ -82,8 +91,8 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -96,6 +105,14 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
         'Longman\\TelegramBot\\' => 
         array (
             0 => __DIR__ . '/..' . '/longman/telegram-bot/src',
+        ),
+        'Hyperf\\Snowflake\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/snowflake/src',
+        ),
+        'Hyperf\\Contract\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/contract/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -116,6 +133,10 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'Arrows\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
@@ -142,9 +163,9 @@ class ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfa1f690ec9bae9cd938b90fad9e39a62::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit42b5cf9db911543556a2e0547f6aa8bb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit42b5cf9db911543556a2e0547f6aa8bb::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit42b5cf9db911543556a2e0547f6aa8bb::$classMap;
 
         }, null, ClassLoader::class);
     }

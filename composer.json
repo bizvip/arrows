@@ -1,6 +1,23 @@
 {
-    "require": {
-        "longman/telegram-bot": "^0.82.0",
-        "nesbot/carbon": "^3.0"
+  "name": "bizvip/arrows",
+  "description": "PHP通用业务工具包",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "longman/telegram-bot": "^0.82.0",
+    "nesbot/carbon": "^3.0",
+    "hyperf/snowflake": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arrows\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Archer++",
+      "email": "gitvip@pm.me"
+    }
+  ],
+  "license": "MIT"
 }

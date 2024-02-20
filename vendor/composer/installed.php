@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'bizvip/arrows',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5d989f8af610a9c924c04b99b6b615914fe9026b',
+        'reference' => '30969cef785df087a4e78dc34c31232c858a0826',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'bizvip/arrows' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5d989f8af610a9c924c04b99b6b615914fe9026b',
+            'reference' => '30969cef785df087a4e78dc34c31232c858a0826',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -52,6 +52,24 @@
             'reference' => '45b30f99ac27b5ca93cb4831afe16285f57b8221',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hyperf/contract' => array(
+            'pretty_version' => 'v3.1.2',
+            'version' => '3.1.2.0',
+            'reference' => 'f5379df6df65363d645506f373888372135ac0c6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hyperf/contract',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hyperf/snowflake' => array(
+            'pretty_version' => 'v3.1.0',
+            'version' => '3.1.0.0',
+            'reference' => 'ac9bec7ea0667df30073321742d4538a06cf8a02',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hyperf/snowflake',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

@@ -407,6 +407,134 @@
             "install-path": "../guzzlehttp/psr7"
         },
         {
+            "name": "hyperf/contract",
+            "version": "v3.1.2",
+            "version_normalized": "3.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/contract.git",
+                "reference": "f5379df6df65363d645506f373888372135ac0c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/contract/zipball/f5379df6df65363d645506f373888372135ac0c6",
+                "reference": "f5379df6df65363d645506f373888372135ac0c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "time": "2023-12-11T03:14:01+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hyperf\\Contract\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The contracts of Hyperf.",
+            "homepage": "https://hyperf.io",
+            "keywords": [
+                "hyperf",
+                "php",
+                "swoole"
+            ],
+            "support": {
+                "docs": "https://hyperf.wiki",
+                "issues": "https://github.com/hyperf/hyperf/issues",
+                "pull-request": "https://github.com/hyperf/hyperf/pulls",
+                "source": "https://github.com/hyperf/hyperf"
+            },
+            "funding": [
+                {
+                    "url": "https://hyperf.wiki/#/zh-cn/donate",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/hyperf",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../hyperf/contract"
+        },
+        {
+            "name": "hyperf/snowflake",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/snowflake.git",
+                "reference": "ac9bec7ea0667df30073321742d4538a06cf8a02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/snowflake/zipball/ac9bec7ea0667df30073321742d4538a06cf8a02",
+                "reference": "ac9bec7ea0667df30073321742d4538a06cf8a02",
+                "shasum": ""
+            },
+            "require": {
+                "hyperf/contract": "~3.1.0",
+                "php": ">=8.1"
+            },
+            "suggest": {
+                "hyperf/config": "Required to read snowflake config.",
+                "hyperf/redis": "Required to use RedisMilliSecondMetaGenerator or RedisSecondMetaGenerator.",
+                "psr/container": "Required to use MetaGeneratorFactory."
+            },
+            "time": "2023-11-24T03:10:53+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                },
+                "hyperf": {
+                    "config": "Hyperf\\Snowflake\\ConfigProvider"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hyperf\\Snowflake\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A snowflake library",
+            "homepage": "https://hyperf.io",
+            "keywords": [
+                "php",
+                "snowflake"
+            ],
+            "support": {
+                "docs": "https://hyperf.wiki",
+                "issues": "https://github.com/hyperf/hyperf/issues",
+                "pull-request": "https://github.com/hyperf/hyperf/pulls",
+                "source": "https://github.com/hyperf/hyperf"
+            },
+            "funding": [
+                {
+                    "url": "https://hyperf.wiki/#/zh-cn/donate",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/hyperf",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../hyperf/snowflake"
+        },
+        {
             "name": "longman/telegram-bot",
             "version": "0.82.0",
             "version_normalized": "0.82.0.0",
