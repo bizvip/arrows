@@ -1,5 +1,6 @@
 {
     "require": {
-        "longman/telegram-bot": "^0.82.0"
+        "longman/telegram-bot": "^0.82.0",
+        "nesbot/carbon": "^3.0"
     }
 }
