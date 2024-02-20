@@ -5,6 +5,7 @@
  ******************************************************************************/
 
 declare(strict_types=1);
+
 namespace App\Utils;
 
 use Hyperf\Codec\Exception\InvalidArgumentException;
