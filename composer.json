@@ -1,6 +1,6 @@
 {
   "name": "bizvip/arrows",
-  "description": "common business toolkits",
+  "description": "General Purpose Utility Toolkit",
   "type": "library",
   "require": {
     "php": "^8.2",
