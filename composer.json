@@ -1,6 +1,6 @@
 {
   "name": "bizvip/arrows",
-  "description": "PHP通用业务工具包",
+  "description": "common business toolkits",
   "type": "library",
   "require": {
     "php": "^8.2",
