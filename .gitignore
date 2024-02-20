@@ -11,3 +11,4 @@
 .vscode/
 *.lock
 .phpunit.cache
+vendor/
