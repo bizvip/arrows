@@ -5,7 +5,7 @@
 
 namespace Arrows\Exception\Handler;
 
-use Arrows\Consts\ErrCode;
+use Arrows\Constants\ErrCode;
 use Arrows\Exception\ServerBusyException;
 use Arrows\JSON;
 use Hyperf\ExceptionHandler\ExceptionHandler;

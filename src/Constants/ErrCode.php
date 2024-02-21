@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace Arrows\Consts;
+namespace Arrows\Constants;
 
 use Hyperf\Constants\AbstractConstants;
 use Hyperf\Constants\Annotation\Constants;
