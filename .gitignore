@@ -12,3 +12,4 @@
 *.lock
 .phpunit.cache
 vendor/
+composer.lock
