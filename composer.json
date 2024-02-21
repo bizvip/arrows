@@ -5,7 +5,6 @@
   "require": {
     "php": "^8.2",
     "longman/telegram-bot": "^0.82.0",
-    "nesbot/carbon": "^3.0",
     "hyperf/snowflake": "^3.1",
     "hyperf/di": "^3.1",
     "hyperf/logger": "^3.1",
