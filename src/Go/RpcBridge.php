@@ -7,7 +7,7 @@
 declare(strict_types=1);
 namespace Arrows\Go;
 
-use App\Exception\BusinessException;
+use Arrows\Exception\BusinessException;
 use App\Utils\Logger;
 use Hyperf\Config\Annotation\Value;
 use Spiral\Goridge;

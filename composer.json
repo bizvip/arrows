@@ -8,7 +8,9 @@
     "nesbot/carbon": "^3.0",
     "hyperf/snowflake": "^3.1",
     "hyperf/di": "^3.1",
-    "hyperf/logger": "^3.1"
+    "hyperf/logger": "^3.1",
+    "hyperf/hyperf": "^3.1",
+    "lysice/hyperf-redis-lock": "^2.1"
   },
   "autoload": {
     "psr-4": {

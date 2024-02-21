@@ -5,9 +5,10 @@
  ******************************************************************************/
 
 declare(strict_types=1);
+
 namespace Arrows\File;
 
-use App\Exception\BusinessException;
+use Arrows\Exception\BusinessException;
 use League\Flysystem\FileNotFoundException;
 use League\Flysystem\Filesystem;
 
@@ -50,6 +51,7 @@ final class StorageAdapter
     public function setFilesystem(Filesystem $filesystem): StorageAdapter
     {
         $this->filesystem = $filesystem;
+
         return $this;
     }
 
@@ -69,6 +71,7 @@ final class StorageAdapter
                 $i++;
             }
         }
+
         return $i;
     }
 
@@ -146,9 +149,8 @@ final class StorageAdapter
         if (is_resource($contents)) {
             return $this->filesystem->putStream($path, $contents, $config);
         }
-        return !is_string($contents)
-            ? throw new BusinessException(message: '不支持的 put 内容类型')
-            : $this->filesystem->put(path: $path, contents: file_get_contents($contents), config: $config);
+
+        return !is_string($contents) ? throw new BusinessException(message: '不支持的 put 内容类型') : $this->filesystem->put(path: $path, contents: file_get_contents($contents), config: $config);
     }
 
     public function write(mixed $contents, string $path = '', array $config = [], bool $isAsync = false): bool
@@ -156,9 +158,8 @@ final class StorageAdapter
         if (is_resource($contents)) {
             return $this->filesystem->writeStream($path, $contents, $config);
         }
-        return !is_string($contents)
-            ? throw new BusinessException(message: '不支持的 write 内容类型')
-            : $this->filesystem->write(path: $path, contents: file_get_contents($contents), config: $config);
+
+        return !is_string($contents) ? throw new BusinessException(message: '不支持的 write 内容类型') : $this->filesystem->write(path: $path, contents: file_get_contents($contents), config: $config);
     }
 
     public function getFile(string $path): string

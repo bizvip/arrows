@@ -8,7 +8,7 @@ declare(strict_types=1);
 
 namespace Arrows;
 
-use App\Exception\BusinessException;
+use Arrows\Exception\BusinessException;
 use Hyperf\Config\Annotation\Value;
 use Longman\TelegramBot\Request;
 use Longman\TelegramBot\Telegram;
